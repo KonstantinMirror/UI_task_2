@@ -152,6 +152,7 @@ body{
 	width: 216px;
 	height: 312px;
 	float: left;
+	margin-top: 22px; 
 	//margin-right: 24px;
 }
 
@@ -212,6 +213,13 @@ input[type=text]{
     padding: 12px 20px 12px 40px;
     -webkit-transition: width 0.4s ease-in-out;
     transition: width 0.4s ease-in-out;
+}
+
+.content-row{
+	width: 30%;
+	float: left;
+	text-align: justify;
+	margin-right: 25px;
 }
 
  
