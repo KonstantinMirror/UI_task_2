@@ -1,7 +1,6 @@
 *{
 	margin: 0;
 	padding: 0;
-	
 }
 
 body{
@@ -14,9 +13,11 @@ body{
 .contener-width{
 	width: 936px;
 	margin: auto;
-	clear: left;
 }
 
+.cleared{
+	clear: left;
+}
 
 
 .font-red{
@@ -48,10 +49,6 @@ body{
 	font-size: 24px;
 }
 
-
-
-
-
 .top-head{
 	background-color: #f6f6f6;
 	height: 48px;
@@ -76,10 +73,7 @@ body{
 .bottom-head{
 	height: 168px;
 	margin-top: 24px;
-
 }
-
-
 
 
 .header-image{
@@ -92,6 +86,7 @@ body{
 
 .navigation{
 	background-color: #333333;
+	height: 72px;
 }
 
 .navigation ul {
@@ -121,10 +116,6 @@ body{
 .navigation ul li a:hover {
     background-color: #111;
 }
-
-
-
-
 
 
 .banner-image{
@@ -216,10 +207,32 @@ input[type=text]{
 }
 
 .content-row{
-	width: 30%;
+	width: 20%;
 	float: left;
 	text-align: justify;
 	margin-right: 25px;
 }
 
- 
+.row-footer{
+	float: left;
+	width: 216px;
+}
+
+.smoll-container{
+width: 100%;
+}
+
+.content-row a{
+	color: #3c3c3c;
+	font-size: 16px;
+	text-decoration: none;
+    display: block;
+    text-align: left;
+    margin-top: 11px;
+}
+
+ .content-row a:hover{
+
+	color: #119;
+
+}
