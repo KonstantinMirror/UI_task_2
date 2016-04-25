@@ -67,10 +67,19 @@ body {
 }
 
 .head-bottom  .head-top-right div {
+	box-sizing: border-box;
 	background-color: #333333;
 	height: 40px;
 	width: 216px;
 	margin-bottom: 50px;
+	padding-left: 40px;
+}
+
+.head-bottom .head-top-right div span{
+	color:  #fefefe;
+	font-size: 16px;
+	display: inline-block;
+	padding-top: 10px;
 }
 
 .head-bottom .head-top-right input {
@@ -93,15 +102,17 @@ body {
 	width: 194px;
 	height: 98px;
 	margin-right: 46px;
+	text-align: center;
 }
 
 .news {
-	color: #fefefe;
-	font-size: 35px;
-	font-weight: 400;
+	color: #ffffff;
+	font-size: 38px;
+	font-weight: 300;
 	width: 400px;
-	margin-left: 100px;
-	padding-top: 100px
+	line-height: 48px;
+	margin-left: 72px;
+	padding-top: 93px
 }
 
 .news .select {
@@ -109,10 +120,11 @@ body {
 }
 
 .news button {
-	background: rgba(0, 0, 0, 0);
-	width: 200px;
-	height: 30px;
-	color: #fefefe;
+	box-sizing: border-box;
+	background: rgba(171, 214, 188, 0);
+	width: 223px;
+	height: 39px;
+	color: #fff3eb;
 	font-weight: 400;
 	font-family: 'Trebuchet MS';
 	font-size: 21.3px;
@@ -173,16 +185,21 @@ body {
 
 .banner-image .select-banner {
 	height: 50px;
+	width: 63px;
 	margin: auto;
+	box-sizing: border-box;
 }
 
 .banner-image .select-banner div {
-	height: 10px;
-	width: 10px;
-	border: 1px solid white;
-	border-radius: 50%;
 	display: inline-block;
 	box-sizing: border-box;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #fff3eb;
+	background-color: rgba(171, 214, 188, 0);
+	width: 18px;
+	height: 18px;
 }
 
 .container {
@@ -275,24 +292,33 @@ body {
 	margin-left: 15px;
 }
 
-footer .navigation .contener-width li button {
+footer .navigation .contener-width  li{
+	font-size: 21.3px;
+	color:  #ffffff;
+}
+
+footer .navigation .contener-width  li button {
 	box-sizing: border-box;
+	width: 105px;
+	height: 36px;
 	border: none;
-	width: 100px;
-	height: 35px;
 	font-family: 'Trebuchet MS';
-	font-weight: 400;
-	color: #fefefe;
-	background-color: #FF8000;
-	margin: 0px;
+	color:  #ffffff;
+	font-size: 18px;
+	background-color: #f19200;
 }
 
 footer .navigation .contener-width li input {
 	box-sizing: border-box;
-	height: 35px;
 	border: none;
 	font-family: 'Trebuchet MS';
+	font-size: 14px;
 	font-weight: 400;
+	text-align: left;
+	color:  #3c3c3c;
+	background-color:  #ffffff;
+	width: 189px;
+	height: 36px;
 	padding-left: 10px;
 }
 
