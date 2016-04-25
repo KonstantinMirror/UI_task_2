@@ -268,17 +268,26 @@ body {
 	width: 30%;
 	text-align: justify;
 	margin: 10px;
+	font-size: 16px;
+	line-height: 24px;
+	color:  #474747;
+
 }
 
 .bottom-footer {
 	margin-top: 50px;
 	margin-bottom: 50px;
-	text-align: justify;
 }
 
 .bottom-footer .row-footer-left {
 	display: inline-block;
 	width: 30%;
+	color:  #3c3c3c;
+	font-size: 13.3px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: justify;
+
 }
 
 .bottom-footer .row-footer-right {
@@ -329,6 +338,15 @@ footer .navigation .contener-width .sign {
 footer .navigation .contener-width li {
 	padding-top: 18px;
 	margin-right: 50px;
+}
+
+.content-row .info{
+	font-family: 'Trebuchet MS';
+	color: #3c3c3c;
+	font-size: 14.7px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
 }
 
 .row-footer {
