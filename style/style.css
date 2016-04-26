@@ -35,6 +35,7 @@ body {
 .font-type3 {
 	font-size: 21.3px;
 	line-height: 40px;
+	text-decoration: none;
 }
 
 .font-type24 {
@@ -105,33 +106,7 @@ body {
 	text-align: center;
 }
 
-.news {
-	color: #ffffff;
-	font-size: 38px;
-	font-weight: 300;
-	width: 400px;
-	line-height: 48px;
-	margin-left: 72px;
-	padding-top: 93px
-}
 
-.news .select {
-	font-weight: 600;
-}
-
-.news button {
-	box-sizing: border-box;
-	background: rgba(171, 214, 188, 0);
-	width: 223px;
-	height: 39px;
-	color: #fff3eb;
-	font-weight: 400;
-	font-family: 'Trebuchet MS';
-	font-size: 21.3px;
-	border: 1px solid white;
-	display: block;
-	margin: 30px auto;
-}
 
 .navigation {
 	background-color: #333333;
@@ -157,7 +132,6 @@ body {
 	font-weight: 400;
 	text-decoration: none;
 	display: block;
-	text-align: left;
 	padding-top: 22px;
 	padding-right: 54px;
 	box-sizing: border-box;
@@ -177,15 +151,9 @@ body {
 	margin-top: 84px;
 }
 
-.list-header {
-	margin-top: 59px;
-	margin-bottom: 31px;
-	clear: left;
-}
-
 .banner-image .select-banner {
 	height: 50px;
-	width: 63px;
+	width: 65px;
 	margin: auto;
 	box-sizing: border-box;
 }
@@ -201,6 +169,42 @@ body {
 	width: 18px;
 	height: 18px;
 }
+
+.banner-image .news {
+	color: #ffffff;
+	font-size: 38px;
+	font-weight: 200;
+	width: 400px;
+	line-height: 48px;
+	margin-left: 72px;
+	padding-top: 93px
+}
+
+.banner-image .news .select {
+	font-weight: 600;
+}
+
+.banner-image .news button {
+	box-sizing: border-box;
+	background: rgba(171, 214, 188, 0);
+	width: 223px;
+	height: 39px;
+	color: #fff3eb;
+	font-weight: 400;
+	font-family: 'Trebuchet MS';
+	font-size: 21.3px;
+	border: 1px solid white;
+	display: block;
+	margin: 30px auto;
+}
+
+.list-header {
+	margin-top: 59px;
+	margin-bottom: 31px;
+	clear: left;
+}
+
+
 
 .container {
 	box-sizing: border-box;
@@ -261,6 +265,28 @@ body {
 .bottom-list {
 	margin-bottom: 50px;
 }
+
+.bottom-list .content-row .titel {
+	padding-bottom: 20px;
+}
+
+.bottom-list .content-row .titel  div {
+	display:inline-block;
+}
+
+.bottom-list .content-row .titel .titel-image{
+	width:50px;
+	height:50px;
+	background-color: #333333;
+	border-radius: 50%;
+	/*background-image:url("../image/icon_free_shipping.jpg");*/
+	background-position: center;
+}
+.bottom-list .content-row .titel .titel-text{
+	font-size: 20px;
+}
+
+
 
 .bottom-list .content-row {
 	box-sizing: border-box;
