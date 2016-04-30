@@ -47,6 +47,22 @@ body {
     height: 48px;
 }
 
+.head-top .contener-width{
+    display: table;
+    height: 100%;
+}
+
+.head-top .head-left {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.head-top .head-right {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
+}
+
 .head-top .head-left .star{
     display:inline-block;
     width:11px;
@@ -72,11 +88,11 @@ body {
     text-decoration: none;
 }
 
-.head-left {
+.left {
     float: left;
 }
 
-.head-right {
+.right {
     float: right;
 }
 
@@ -85,7 +101,7 @@ body {
     margin-top: 24px;
 }
 
-.head-bottom  .head-right div {
+.head-bottom  .right div {
     box-sizing: border-box;
     background-color: #333333;
     height: 40px;
@@ -94,14 +110,14 @@ body {
     padding-left: 40px;
 }
 
-.head-bottom .head-right div span{
+.head-bottom .right div span{
     color:  #fefefe;
     font-size: 16px;
     display: inline-block;
     padding-top: 10px;
 }
 
-.head-bottom .head-right input {
+.head-bottom .right input {
     box-sizing: border-box;
     border-style: solid;
     border-width: 1px;
@@ -169,23 +185,33 @@ body {
     margin-top: 84px;
 }
 
-.banner-image .select-banner {
-    height: 50px;
-    width: 65px;
-    margin: auto;
-    box-sizing: border-box;
+.banner-image .selects {
+    text-align: center;
+    cursor: pointer;
 }
 
-.banner-image .select-banner div {
+.banner-image .selects .outer {
     display: inline-block;
     box-sizing: border-box;
     border-radius: 50%;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #fff3eb;
+    border: 1px solid  #fff3eb;
     background-color: rgba(171, 214, 188, 0);
     width: 18px;
     height: 18px;
+    position: relative;
+    margin-right: 9px;
+
+}
+
+.banner-image .selects .outer .inner{
+    box-sizing: border-box;
+    width: 7px;
+    height: 7px;
+    border: 3.5px solid #fff3eb;
+    border-radius: 50%;
+    position: absolute;
+    top: 3.5px;
+    left: 3.5px;
 }
 
 .banner-image .news {
@@ -214,6 +240,7 @@ body {
     border: 1px solid white;
     display: block;
     margin: 30px auto;
+    cursor: pointer;
 }
 
 .list-header {
@@ -355,6 +382,10 @@ footer .navigation .contener-width  li button {
     font-size: 18px;
     background-color: #f19200;
     margin-right: 50px;
+    line-height:30px;
+    display: block;
+    float: left;
+    cursor: pointer;
 }
 
 footer .navigation .contener-width li input {
@@ -367,9 +398,12 @@ footer .navigation .contener-width li input {
     color:  #3c3c3c;
     background-color:  #ffffff;
     width: 189px;
-    height: 37px;
+    height: 36px;
     padding-left: 10px;
     margin-left: 50px;
+    display: block;
+    float: left;
+
 }
 
 footer .navigation .contener-width .sign {
@@ -381,32 +415,51 @@ footer .navigation .contener-width li {
 }
 
 footer .navigation .contener-width .logo {
+    cursor: pointer;
     width: 50px;
-    height: 50px;
+    height: 36px;
     background-image:url("../image/spritesheet.png");
     background-repeat: no-repeat;
 }
 
 footer .navigation .contener-width .logo_1 {
-    background-position: -190px -18px;
+    background-position: -190px -24px;
 }
 
 footer .navigation .contener-width .logo_2 {
-    background-position: -839px -18px;
+    background-position: -839px -24px;
 }
 footer .navigation .contener-width .logo_3 {
-    background-position: -18px -18px;
+    background-position: -18px -24px;  
 }
 
 footer .navigation .contener-width .logo_4 {
-    background-position: -524px -18px;
+    background-position: -524px -24px;
 }
+
+footer .navigation .contener-width .logo_1:hover {
+    background-position: -278px -24px;
+}
+
+footer .navigation .contener-width .logo_2:hover {
+    background-position: -922px -24px;
+}
+footer .navigation .contener-width .logo_3:hover { 
+    background-position: -105px -24px;
+}
+
+footer .navigation .contener-width .logo_4:hover {
+    background-position: -596px -24px;
+}
+
+
 
 .bottom-footer {
     padding-top: 50px;
     padding-bottom: 50px;
     text-align: justify;
 }
+
 
 .bottom-footer .lef-row{
     float:left;
@@ -427,6 +480,10 @@ footer .navigation .contener-width .logo_4 {
     padding-left: 0px;
 }
 
+.bottom-footer .small-container .cell .titel{
+    font-size: 21.3px;
+    margin-bottom:24px;
+}
 
 .bottom-footer .small-container .cell a{
     color: #3c3c3c;
