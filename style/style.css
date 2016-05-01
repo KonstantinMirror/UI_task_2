@@ -565,11 +565,6 @@ body {
     text-align: justify;
 }
 
-.footer .bottom-footer .container{
-    position: relative;
-}
-
-
 .footer .bottom-footer .lef-row{
     font-size: 13.3px;
     float:left;
@@ -578,8 +573,16 @@ body {
     line-height: 24px;
 }
 
+.footer .bottom-footer .lef-row .container{
+    position: relative;
+    height: 70px;
+}
+
 .footer .bottom-footer .lef-row .logo-left{
     display: inline-block;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
 }
 
 .footer .bottom-footer .lef-row .logo-right{
